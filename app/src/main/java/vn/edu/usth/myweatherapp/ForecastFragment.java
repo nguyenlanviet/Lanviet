@@ -62,5 +62,21 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.i(TAG, "onDestroy() called");
+
+        public class WeatherActivity extends AppCompatActivity {
+
+            @Override
+            protected void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+                setContentView(R.layout.activity_weather);
+
+                ViewPager viewPager = findViewById(R.id.viewPager);
+
+                // Tạo adapter cho ViewPager
+                WeatherPagerAdapter adapter = new WeatherPagerAdapter(getSupportFragmentManager());
+                viewPager.setAdapter(adapter);
+            }
+        }
+
     }
 }
