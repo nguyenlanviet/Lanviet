@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bule"> #c5eceb</color>
+    <color name="littleWhite">#e7ecef</color>
+    <color name="linkWater">#d1e8f5</color>
+    <color name="Green">#1cf525</color>
+    <color name="Purple">#de1cf5</color>
+    <color name="Silver">#a7adad</color>
+    <color name="charcoal">#292b2b</color>
+    <color name="Carrot">#fb9937</color>
+    <color name="Starr">#ebf32d</color>
+    <color name="Gray">#83888a</color>
+    <color name="Theme">#f1f0f6</color>
+    <color name="grey">#5b5b5b</color>
+</resources>
