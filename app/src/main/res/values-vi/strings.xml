@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="VietNam">Thời tiết Việt Nam</string>
+    <string name="France">Thời tiết Pháp</string>
+    <string name="China">Thời tiết Tàu</string>
+    <string name="Monday">Thứ 2</string>
+    <string name="Tuesday">Thứ 3</string>
+    <string name="Wednesday">Thứ 4</string>
+    <string name="Thurday">"Thứ 5"</string>
+    <string name="Friday">Thứ 6</string>
+    <string name="Satuday">Thứ 7</string>
+    <string name="Sunday">Chủ Nhật</string>
+    <string name="Sunny">Nắng</string>
+    <string name="Cloudy">Mây</string>
+    <string name="Rain">Mưa</string>
+    <string name="Thurder">Sấm</string>
+    <string name="Snow">Tuyết</string>
+    <string name="Stom">Bão</string>
+    <string name="ThunderStom">Bão lớn</string>
+    <string name="refesh">Làm mới</string>
+    <string name="nothing">Không có gì ở trang này, làm ơn hãy trở lại trang trước.</string>
+    <string name="back">Trở lại</string>
+    <string name="create">Mở PrefActivity</string>
+    <string name="networkcomplete">Yêu cầu mạng đã hoàn tất</string>
+
+</resources>

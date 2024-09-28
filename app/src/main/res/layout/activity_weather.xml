@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".WeatherActivity">
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewPager"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        app:menu="@menu/toolbar"
+        app:title="@string/USTH"
+        app:titleTextColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:background="@color/Theme"
+        />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/View_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_below="@+id/tool_bar_view"
+        />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Gray"
+        android:layout_alignParentBottom="true"
+        app:itemTextColor="@color/color_navoigation"
+        app:itemIconTint="@color/color_navoigation"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_navigation"
+        />
 
-</LinearLayout>
+
+
+</RelativeLayout>

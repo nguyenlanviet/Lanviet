@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_tab_1" android:title="@string/VietNam" android:icon="@drawable/day_clear"/>
+    <item android:id="@+id/menu_tab_2" android:title="@string/France" android:icon="@drawable/snow"/>
+    <item android:id="@+id/menu_tab_3" android:title="@string/China" android:icon="@drawable/day_rain_thunder"/>
+</menu>
