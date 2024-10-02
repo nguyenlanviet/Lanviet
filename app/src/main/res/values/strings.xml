@@ -29,4 +29,6 @@
 
     <string name="nothing">Noting in this page, please go back to previous page.</string>
 
+    <string name="networkcomplete">Network request completed</string>
+
 </resources>

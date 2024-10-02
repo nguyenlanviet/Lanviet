@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="VietNam">Thời tiết Việt Nam</string>
     <string name="France">Thời tiết Pháp</string>
     <string name="China">Thời tiết Tàu</string>
@@ -21,6 +21,6 @@
     <string name="nothing">Không có gì ở trang này, làm ơn hãy trở lại trang trước.</string>
     <string name="back">Trở lại</string>
     <string name="create">Mở PrefActivity</string>
-    <string name="networkcomplete">Yêu cầu mạng đã hoàn tất</string>
+    <string name="networkcomplete" tools:ignore="ExtraTranslation">Yêu cầu mạng đã hoàn tất</string>
 
 </resources>
