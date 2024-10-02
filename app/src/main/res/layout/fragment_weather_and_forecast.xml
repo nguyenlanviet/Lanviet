@@ -18,7 +18,7 @@
 
             <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/fragmentContainerView"
-                android:name="vn.edu.usth.usthweather.Fragment1"
+                android:name="vn.edu.usth.myweatherapp.Fragment1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -37,7 +37,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="48px"
                         android:orientation="horizontal"
-                        android:padding="4px">
+                        android:paddingRight="0px">
                         <TextView
                             android:id="@+id/item1"
                             android:layout_width="180px"
